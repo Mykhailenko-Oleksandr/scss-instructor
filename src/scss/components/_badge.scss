@@ -1,0 +1,21 @@
+// @use "../utils/mixin";
+// @use "../utils/variables" as v;
+@use "../utilities" as fwrd;
+
+.badge {
+  @include fwrd.badge-base();
+
+  color: fwrd.$badge-co;
+}
+
+.badge-completed {
+  background-color: fwrd.$completed;
+}
+
+.badge-ended {
+  background-color: fwrd.$ended;
+}
+
+.badge-active {
+  background-color: fwrd.$active;
+}

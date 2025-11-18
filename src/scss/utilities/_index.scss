@@ -1,0 +1,8 @@
+@forward "../utilities/mixin";
+@forward "../utilities/variables";
+
+// Приховати змінну $active
+// @forward "../utils/variables" hide $active;
+
+// Приховати всі змінні окрім $active
+// @forward "../utils/variables" show $active;

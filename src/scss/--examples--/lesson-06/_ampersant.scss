@@ -1,0 +1,12 @@
+.button {
+  background: {
+    color: teal;
+    position: center;
+    repeat: no-repeat;
+  }
+
+  &:hover,
+  &:focus {
+    color: blue;
+  }
+}
