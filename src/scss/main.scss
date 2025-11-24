@@ -9,4 +9,17 @@
 // @use "--examples--/lesson-05/base";
 
 // @use "./--examples--/lesson-06/nesting";
-@use "./--examples--/lesson-06/combinators";
+// @use "./--examples--/lesson-06/combinators";
+
+// Examples lesson 07
+// @use "--examples--/lesson-07/math";
+// @use "--examples--/lesson-07/task-badge";
+@use "base/fonts";
+// @use "components/task";
+// @use "./--examples--/lesson-07/task";
+
+// Examples lesson 08
+// @use "./--examples--/lesson-08/extend";
+
+// Examples lesson 09
+@use "./--examples--/lesson-09/mixin";
