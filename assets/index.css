@@ -1,11 +1,46 @@
-ul > li {
-  list-style: none;
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
 }
 
-h2 + p {
-  border-top: 1px solid grey;
+.deciration {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -70%);
+     -moz-transform: translate(-50%, -70%);
+      -ms-transform: translate(-50%, -70%);
+          transform: translate(-50%, -70%);
+  z-index: 100;
 }
 
-p ~ span {
-  opacity: 0.8;
+.btn-sm {
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.btn-md {
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+
+.btn-lg {
+  padding: 12px 16px;
+  border-radius: 16px;
+}
+
+.btn-saccess {
+  border: 2px solid lightgreen;
+  color: lightgreen;
+}
+
+.btn-error {
+  border: 2px solid tomato;
+  color: tomato;
+}
+
+.btn-info {
+  border: 2px solid lightblue;
+  color: lightblue;
 }
