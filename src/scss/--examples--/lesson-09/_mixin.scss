@@ -90,3 +90,21 @@
 }
 
 @include btn-type($saccess: lightgreen, $error: tomato, $info: lightblue);
+
+//////////////////////////////////////////////////////////
+
+@mixin hover($state) {
+  &:not([#{$state}]):hover {
+    @content;
+  }
+}
+
+.button {
+  background-color: white;
+  border: 1px solid darkblue;
+
+  @include hover($state: disabled) {
+    color: white;
+    background-color: darkblue;
+  }
+}
